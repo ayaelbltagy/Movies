@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ayaelbeltagye.popularmoviesapp.MainActivity">
+
+    <item android:id="@+id/action_rate"
+        android:title="Rate"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:title="Popularity"
+        android:id="@+id/action_Popularity"
+        android:orderInCategory="101"
+        app:showAsAction="never"></item>
+    <item android:id="@+id/action_Favorite"
+        android:title="Favorite"
+        android:orderInCategory="102"
+        app:showAsAction="never"></item>
+</menu>
